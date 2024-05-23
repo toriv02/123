@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\bin\Debug\netstandard2.0\TBmobile.deps.json
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\bin\Debug\netstandard2.0\TBmobile.dll
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\bin\Debug\netstandard2.0\ref\TBmobile.dll
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\bin\Debug\netstandard2.0\TBmobile.pdb
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\TBmobile.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\TBmobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\TBmobile.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\TBmobile.AssemblyInfo.cs
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\TBmobile.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\TBmobile.dll
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\refint\TBmobile.dll
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\TBmobile.pdb
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\BottomMenu.xaml.g.cs
+C:\Users\Admin\Desktop\TBmobile\TBmobile\TBmobile\obj\Debug\netstandard2.0\TBmobile.sourcelink.json

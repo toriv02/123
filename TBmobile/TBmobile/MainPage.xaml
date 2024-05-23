@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TBmobile.MainPage"
+            >
+    <StackLayout Padding="57,171,57,0" BackgroundColor="#FF383838">
+
+        <Label Text="clipboard" FontSize="40" TextColor="White" Margin="0,0,0,60" HorizontalTextAlignment="Center"/>
+
+        <StackLayout Orientation="Horizontal" Margin="0,0,0,0">
+            <Image Source="https://cdn-icons-png.flaticon.com/128/8188/8188339.png" HeightRequest="26"/>
+            <Entry x:Name="login" IsPassword="False" Placeholder="логин" WidthRequest="250" PlaceholderColor="White" TextColor="White"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Margin="0,5,0,0">
+            <Image Source="https://cdn-icons-png.flaticon.com/128/8472/8472244.png" HeightRequest="26"/>
+            <Entry x:Name="pass" IsPassword="True" Placeholder="пароль" WidthRequest="250" FontSize="Medium" PlaceholderColor="White" TextColor="White"/>
+        </StackLayout>
+        <Button Text="войти" Clicked="Enter" TextColor="White" BackgroundColor="#FF0070B5" Margin="0,60,0,10" HeightRequest="40" CornerRadius="6" />
+        
+    </StackLayout>
+
+</ContentPage>

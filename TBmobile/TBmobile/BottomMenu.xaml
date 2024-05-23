@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:TBmonbile="clr-namespace:TBmobile"
+             x:Class="TBmobile.TabbedPage1"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             BarBackgroundColor="#FF383838"
+             SelectedTabColor="#FF0070B5"
+             UnselectedTabColor="White">
+
+
+    <TabbedPage.Children>
+        <ContentPage Title="Файлы">
+            <ContentPage.Content>
+                <StackLayout Background="#1e1e1e">
+                    <ScrollView Background="#1e1e1e" Padding="5" x:Name="FileScrollViewer">
+                        <StackLayout x:Name="TextFilesPanel" />
+                    </ScrollView>
+                    <StackLayout BackgroundColor="#FF383838" Padding="5">
+                        <Button x:Name="FileButton_Clicked" Text="прикрепить файл"  BackgroundColor="#FF0070B5"/>
+                    </StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+
+        <ContentPage Title="Картинки">
+            <ContentPage.Content>
+                <StackLayout Background="#1e1e1e">
+                    <ScrollView Background="#1e1e1e" Padding="5" x:Name="ImageScrollViewer">
+                        <StackLayout x:Name="ImageFilesPanel" />
+                            <!--заглушка-->
+                    </ScrollView>
+                    <StackLayout BackgroundColor="#FF383838" Padding="5">
+                        <Button  x:Name="ImageButton_Clicked" Text="прикрепить изображение"  BackgroundColor="#FF0070B5"/>
+                    </StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+
+        <ContentPage Title="Текст">
+            <ContentPage.Content>
+                <StackLayout BackgroundColor="#FF383838">
+                    <ScrollView Background="#1e1e1e" Padding="5" x:Name="OtherScrollViewer">
+                        <StackLayout x:Name="OtherFilesPanel" />
+                            <!--заглушка-->
+                    </ScrollView>
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#FF383838" Padding="5">
+                        <Entry x:Name="TextInput" Placeholder="Enter your message" HorizontalOptions="FillAndExpand" PlaceholderColor="White" TextColor="White"/>
+                        <Button x:Name="SendTextButton" Text="Отправить" HorizontalOptions="End" BackgroundColor="#FF0070B5"/>
+                    </StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+
+    </TabbedPage.Children>
+</TabbedPage>
